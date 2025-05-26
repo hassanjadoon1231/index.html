@@ -1,9 +1,20 @@
 {
-    "name": "my-html-site",
-    "version": "1.0.0",
-    "description": "A static HTML site",
-    "scripts": {
-        "start": "echo 'Nothing to run, this is a static site.'"
-    },
-    "license": "MIT"
+  "name": "my-vercel-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
 }
